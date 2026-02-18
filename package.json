@@ -1,0 +1,12 @@
+{
+  "name": "pawzz-demo-monorepo",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev:backend": "node api/index.js",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm install && npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
